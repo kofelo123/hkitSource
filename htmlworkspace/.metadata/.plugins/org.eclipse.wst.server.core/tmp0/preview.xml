@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <server port="8080">
-  <module context="ch4" name="ch4" path="C:/Users/USER/htmlworkspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/ch4" type="static"/>
+  <module context="ch4" name="ch4" path="C:/workspace/htmlworkspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/ch4" type="static"/>
+  <module context="ch2" name="ch2" path="C:/workspace/htmlworkspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/ch2" type="static"/>
+  <module context="ch5" name="ch5" path="C:/workspace/htmlworkspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/ch5" type="static"/>
 </server>
