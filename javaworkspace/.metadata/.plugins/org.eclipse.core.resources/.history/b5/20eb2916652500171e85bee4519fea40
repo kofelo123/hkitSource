@@ -1,0 +1,15 @@
+package kr.hkit.Prob;
+
+public class SecondProb {
+	
+	public SecondProb() {
+	
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		SecondProb secondProb = new SecondProb();
+	}
+
+}

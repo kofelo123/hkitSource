@@ -1,0 +1,13 @@
+package com.prob.array;
+
+public class Prob3 {
+	public static void main(String[] args) {
+		
+		int count=0;
+		int[][] numb={
+					{7,9,4,7,2},
+					{3,4,6,7,2},
+					{3,2,6,9,8},
+		};
+	}
+}

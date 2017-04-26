@@ -1,0 +1,7 @@
+package kr.hkit.chap1;
+
+public class TestLoop03 {
+	public static void main(String[] args) {
+		
+	}
+}

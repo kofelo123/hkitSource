@@ -1,0 +1,14 @@
+package kr.hkit.Prob;
+
+public class FirstProb {
+	
+	private int numb;
+	public FirstProb() {
+	
+	}
+	public static void main(String[] args) {
+	
+		FirstProb firstProb = new FirstProb();
+		
+	}
+}

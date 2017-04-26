@@ -1,0 +1,17 @@
+package kr.hkit.Prob2;
+
+public class Prob4_4 {
+	
+	public static void main(String[] args) {
+		
+		int sum=0;
+		int i=1;
+		do{
+			
+			i++;
+		}while(sum>=100)
+		
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+package kr.hkit.Prob2;
+
+public class Prob4_1 {
+
+	
+	public boolean prob1(int x){
+		
+		if((x>10)&&(x<20))		
+			return true;
+		else return false;
+		
+	}
+	
+	public boolean prob2(char ch){
+		 if(!(ch == ' ' || ch == '\t'))
+			 return true;
+		
+		 return false;
+			
+	}
+	
+	
+	public static void main(String[] args) {
+	
+	}
+}

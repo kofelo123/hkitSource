@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 Basic</title>
+</head>
+<body>
+    <form>
+        <input type="text" name="name" ></input><br />
+        <input type="password" name="password">ºñ¹ø</input><br />
+        
+        <input type="file" name="file" /><br />
+        <input type="submit" />
+    </form>
+</body>
+</html>

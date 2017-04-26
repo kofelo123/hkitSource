@@ -1,0 +1,23 @@
+package kr.hkit.Prob;
+
+import java.util.Scanner;
+
+public class ThirdProb {
+
+	private int numb;
+	
+	public ThirdProb() {
+		input();
+	}
+	
+	public void input(){
+		Scanner scanner = new Scanner(System.in);
+		numb=scanner.nextInt();
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ThirdProb thirdProb = new ThirdProb();
+	}
+
+}

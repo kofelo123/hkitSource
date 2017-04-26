@@ -1,0 +1,19 @@
+package kr.hkit.array;
+
+public class ArrayPrac {
+
+	public static void main(String[] args) {
+		int[] score = new int[5];
+		int hap = 0;
+		score[0] = 50;
+		score[1] = 60;
+		score[2] = 70;
+		score[3] = 30;
+		score[4] = 90;
+
+		hap = score[0]+score[1]+score[2]+score[3]+score[4];
+		
+		System.out.println("√—«’¿∫ : " + hap);
+	}
+
+}

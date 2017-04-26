@@ -1,0 +1,15 @@
+package kr.hkit.array;
+
+public class Lotto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int[] six = new int[6];
+		
+		do{
+			
+		}while(s)
+	}
+
+}

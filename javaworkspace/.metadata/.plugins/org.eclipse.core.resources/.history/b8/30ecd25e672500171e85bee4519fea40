@@ -1,0 +1,14 @@
+package kr.hkit.Prob;
+
+public class ThirdProb {
+
+	public ThirdProb() {
+		input();
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ThirdProb thirdProb = new ThirdProb();
+	}
+
+}

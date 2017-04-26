@@ -1,0 +1,25 @@
+package kr.hkit.Prob;
+
+public class FirstProb {
+	
+	private int numb;
+	
+	public FirstProb() {
+		print();
+	}
+	
+	public void print(){//static으로 해볼것
+		int gijun=0;
+		for(int i=0; i<=14; i++){
+			gijun+=i;
+			System.out.print(i+gijun+", ");
+			
+		}
+		
+	}
+	public static void main(String[] args) {
+	
+		FirstProb firstProb = new FirstProb();
+		
+	}
+}

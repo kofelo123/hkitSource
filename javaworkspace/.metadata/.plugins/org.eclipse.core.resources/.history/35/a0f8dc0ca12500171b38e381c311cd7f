@@ -1,0 +1,20 @@
+package kr.hkit.array;
+
+public class Lotto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int[] six = new int[6];
+		int nan,sameCount;
+		do{
+			nan=(int)(Math.random()*46);//난수발생
+			
+			do{
+				
+			}while();
+			
+		}while(count);
+	}
+
+}

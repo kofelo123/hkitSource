@@ -1,0 +1,14 @@
+package kr.hkit.Prob2;
+
+public class Prob4_4 {
+	int sum;
+	public static void main(String[] args) {
+		
+		,count; // 0초기화안해도 전역이라서 0
+		
+
+		
+		
+	}
+
+}

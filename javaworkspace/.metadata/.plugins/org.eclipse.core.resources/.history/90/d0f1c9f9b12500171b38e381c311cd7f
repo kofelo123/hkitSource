@@ -1,0 +1,10 @@
+package kr.hkit.Prob2;
+
+public class Prob4_11 {
+	public static void main(String[] args) {
+		
+		int num1 = 1;
+		int num2 = 1;
+		int num3 = 0;
+	}
+}

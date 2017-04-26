@@ -1,0 +1,8 @@
+package com.prob.array2;
+
+public class Prob5_1 {
+
+	public static void main(String[] args) {
+		int[] arr = new int[5]{1,2,3,4,5};
+	}
+}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 Basic</title>
+</head>
+<body>
+    <form>
+        <input type="text" name="name" 아이디/><br />
+        <input type="password" name="password" 비번/><br />
+        
+        <input type="file" name="file" /><br />
+        <input type="submit" />
+    </form>
+</body>
+</html>

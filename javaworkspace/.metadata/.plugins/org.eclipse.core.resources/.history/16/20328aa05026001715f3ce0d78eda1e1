@@ -1,0 +1,16 @@
+package com.prob.array;
+
+public class Prob2 {
+	
+	public static void main(String[] args) {
+		
+		int sum=0;
+		int[][] num={
+				{28,33,36,7},
+				{56,66,44,20},
+				{88,7,21,44},
+				{33,2,643,4},
+		}
+	}
+
+}
