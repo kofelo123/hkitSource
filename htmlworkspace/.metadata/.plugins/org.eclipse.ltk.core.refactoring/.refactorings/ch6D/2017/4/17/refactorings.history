@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;header_background.png, header_left_button.png, header_right_button.png, HTMLPage.html, prac.html, sprites.png&apos; to &apos;WebContent&apos;" description="Move 6 resources to &apos;WebContent&apos;" destination="WebContent" element1="WebContent/WEB-INF/header_background.png" element2="WebContent/WEB-INF/header_left_button.png" element3="WebContent/WEB-INF/header_right_button.png" element4="WebContent/WEB-INF/HTMLPage.html" element5="WebContent/WEB-INF/prac.html" element6="WebContent/WEB-INF/sprites.png" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="6" stamp="1493343974356" updateReferences="true"/>
+</session>

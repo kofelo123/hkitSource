@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Insert title here</title>
+
+	<style>
+		div {
+			border: 3px solid black;
+		}
+		
+		.ellipsis{
+			white-space: nowrap;
+			overflow:hidden;
+		}
+	</style>
+</head>
+<body>
+	<div class="ellipsis">Lorem ipsum solor sit amet, consectetur adpiscing elit.</div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 6 elements to &apos;WEB-INF&apos;&#x0D;&#x0A;- Original project: &apos;ch6&apos;&#x0D;&#x0A;- Destination element: &apos;WEB-INF&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     header_background.png&#x0D;&#x0A;     sprites.png&#x0D;&#x0A;     header_left_button.png&#x0D;&#x0A;     header_right_button.png&#x0D;&#x0A;     HTMLPage.html&#x0D;&#x0A;     prac.html" description="Copy files" element1="WebContent/header_background.png" element2="WebContent/sprites.png" element3="WebContent/header_left_button.png" element4="WebContent/header_right_button.png" element5="WebContent/HTMLPage.html" element6="WebContent/prac.html" files="6" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1493343937216" target="/ch6D/WebContent/WEB-INF" units="0" version="1.0"/>
+</session>

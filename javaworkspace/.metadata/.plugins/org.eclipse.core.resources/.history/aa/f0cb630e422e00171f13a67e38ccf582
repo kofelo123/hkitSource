@@ -1,0 +1,16 @@
+package com.jeongwon.chap2;
+
+import java.util.Scanner;
+
+public class Ex3_1 {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		int num;
+		System.out.print("숫자입력:");
+		num=scanner.nextInt();
+		
+		for(int i=1;i<=10000;i=i*10)
+	}
+}
