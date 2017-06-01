@@ -1,0 +1,18 @@
+package com.jeongwon.threaded;
+
+class ShowThread extends Thread{
+	String threadName;
+	
+	public ShowThread(String name) {
+		threadName = name;
+	}
+	
+	public void run(){
+		System.out.println("안녕하세요."+threadName+"입니다.");
+	}
+	
+}
+
+public class Thread01 {
+
+}

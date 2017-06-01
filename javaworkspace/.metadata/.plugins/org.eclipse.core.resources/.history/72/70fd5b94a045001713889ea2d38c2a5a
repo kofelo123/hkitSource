@@ -1,0 +1,15 @@
+package com.jeongwon.thread2;
+
+public class ThreadEx21 {
+	public static void main(String[] args) {
+		
+	}
+}
+
+class Account {
+	private int balance = 1000;
+	
+	public int getBalance(){
+		return balance;
+	}
+}

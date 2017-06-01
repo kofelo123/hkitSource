@@ -1,0 +1,35 @@
+package com.jeongwon.thread2;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class ThreadProb {
+	
+	public void input1(){
+		Scanner scanner = new Scanner(System.in);
+		ArrayList inputList=new ArrayList(); 
+		
+		for(int i=0; i<5; i++){
+			System.out.print("정수입력:");
+			inputList.add(scanner.nextInt());
+		}
+		System.out.println(inputList);
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		
+		CalThread tr = new CalThread();
+		tr.start();
+	}
+}
+
+class CalThread extends Thread{
+	ThreadProb threadProb;
+	
+	@Override
+	public void run() {
+		
+	}
+}

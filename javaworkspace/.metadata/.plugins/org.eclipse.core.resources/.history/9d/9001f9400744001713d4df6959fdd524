@@ -1,0 +1,12 @@
+package com.jeongwon.ch11;
+
+class Fruit implements Eatable{
+	public String toString(){
+		return "Fruit";
+	}
+}
+
+public class FruitBoxEx2 {
+	
+
+}

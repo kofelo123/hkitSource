@@ -1,0 +1,31 @@
+package com.jeongwon.thread2;
+
+class NewsPaper{
+	String todayNews;
+	
+	public void setTodayNews(String news){
+		todayNews = news;
+	}
+	public String getTodayNews(){
+		return todayNews;
+	}
+}
+
+class NewsWriter extends Thread{
+	NewsPaper paper;
+	public NewsWriter(NewsPaper paper) {
+		this.paper = paper;
+	}
+}
+
+class NewsReader extends Thread{
+	
+}
+public class SysnNewsPaper {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

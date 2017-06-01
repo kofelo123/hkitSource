@@ -1,0 +1,15 @@
+package com.jeongwon.threaded;
+
+public class ThreadEx10 implements Runnable{
+public static void main(String[] args) {
+	
+}
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+	public void autoSave(){
+		System.out.println("작ㄱ업파일이 자동저장되었습니다.");
+	}
+}

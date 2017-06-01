@@ -1,0 +1,15 @@
+package com.jeongwon.ch12;
+
+public class Enum {
+
+	public static final String MAIL = "MAIL";
+	public static final String FEMAIL = "FEMAIL";
+	
+	public static void main(String[] args) {
+		String gender1,gender2,gender3;
+		
+		gender1 = Enum.MAIL;
+		gender2 = Enum.FEMAIL;
+		gender3 = "¼Ò³â";
+	}
+}

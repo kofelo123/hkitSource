@@ -1,0 +1,9 @@
+package com.jeongwon.thread2;
+
+public class ThreadProb2 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

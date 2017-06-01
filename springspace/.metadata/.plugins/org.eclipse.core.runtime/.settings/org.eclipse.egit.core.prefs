@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=C\:\\workspace\\.git;C\:\\Users\\USER\\git\\spweb01\\.git;
-GitRepositoriesView.GitDirectories.relative=C\:\\workspace\\.git;C\:\\Users\\USER\\git\\spweb01\\.git;
+GitRepositoriesView.GitDirectories=C\:\\workspace\\.git;C\:\\workspace\\springspace\\spweb01\\spweb01\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\workspace\\.git;spweb01\\spweb01\\.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

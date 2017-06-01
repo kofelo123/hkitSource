@@ -1,0 +1,38 @@
+package com.jeongwon.ch11;
+
+class Orange{
+	int sugarContent;
+	public Orange(int sugar){
+		sugarContent = sugar;
+		}
+	
+	public void showSugerContent(){
+		System.out.println("´çµµ : "+ sugarContent);
+	}
+}
+
+class FruitBox{
+	Object item;
+	public void store(Object item){
+		this.item = item;
+		
+	}
+	public Object pullOut(){
+		return item;
+	}
+}
+
+
+public class OrangeBox {
+	public static void main(String[] args) {
+		FruitBox box1 = new FruitBox();
+		box1.store(new Orange(10));
+		Orange o = (Orange)box1.pullOut();
+		o.showSugerContent();
+		
+		FruitBox box2 = new FruitBox();
+		box2.store("¿À·»Áö");
+		Orange o2 = (Orange)box2.pullOut();
+		o2.showSugerContent();
+	}
+}

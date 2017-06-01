@@ -1,0 +1,29 @@
+package com.jeongwon.threaded;
+
+class Sum{
+	int num;
+	public Sum(){num=0;}
+	public void 
+}
+class AdderThread {
+	
+}
+public class Thread02 {
+
+	public static void main(String[] args) {
+		AdderThread at1 = new AdderThread(1,50);
+		AdderThread at2 = new AdderThread(51,100);
+		
+		Thread tr1 = new Thread(at1);
+		Thread tr2  = new Thread(at2);
+		
+		tr1.start();
+		tr2.start();
+		
+		tr1.join();
+		tr2.join();
+		System.out.println("1~100까지 합" + (at1.getNum()+at2.getNum()));
+		System.out.println("1~50까지의 합"+ at1.getNum());
+		System.out.println("51~100까지의 합"+ at2.getNum());
+	}
+}

@@ -1,0 +1,10 @@
+package com.jeongwon.io;
+
+public class FileEx2 {
+	public static void main(String[] args) {
+		if(args.length != 1){
+			System.out.println("USAGE : java FileEx2 DIRECTORY");
+			System.exit(0);
+		}
+	}
+}

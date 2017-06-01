@@ -1,0 +1,70 @@
+package com.jeongwon.thread2;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class ThreadProb {
+	Scanner scanner = new Scanner(System.in);
+	ArrayList inputList=new ArrayList(); 
+	
+	public ArrayList input(){		
+		
+			System.out.print("정수입력:");
+			inputList.add(scanner.nextInt());
+		
+		return inputList;
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		ThreadProb prob = new ThreadProb();
+		CalThread tr = new CalThread(prob);
+		
+		tr.start();
+	}
+}
+
+class CalThread extends Thread{
+	ThreadProb threadProb;
+	
+	public CalThread(ThreadProb prob) {
+		threadProb=prob;
+	}
+	
+	public int cal(ArrayList inputlist){
+		int sum=0;
+		for(int i=0;i<5;i++){
+			
+			sum+=(int)inputlist.get(i);
+		}
+		return sum;
+		
+	}
+	@Override
+	public synchronized void run() {
+		System.out.println(cal(threadProb.input()));
+	}
+}
+class CalThread2 extends Thread{
+	ThreadProb threadProb;
+	
+	public CalThread2(ThreadProb prob) {
+		threadProb=prob;
+	}
+	
+	public int cal(ArrayList inputlist){
+		int sum=0;
+		for(int i=0;i<5;i++){
+			
+			sum+=(int)inputlist.get(i);
+		}
+		return sum;
+		
+	}
+	@Override
+	public void run() {
+		System.out.println(cal(threadProb.input()));
+	}
+}

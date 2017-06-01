@@ -1,0 +1,14 @@
+package com.jeongwon.ch11;
+
+class Orange{
+	int sugarContent;
+	public Orange(int suger){
+		sugarContent = suger;
+		}
+}
+
+public class OrangeBox {
+	public static void main(String[] args) {
+		
+	}
+}

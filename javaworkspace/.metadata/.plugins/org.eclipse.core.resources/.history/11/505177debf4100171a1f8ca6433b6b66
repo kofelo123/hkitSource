@@ -1,0 +1,27 @@
+package com.jeongwon.ch11;
+
+class Orange{
+	int sugarContent;
+	public Orange(int sugar){
+		sugarContent = sugar;
+		}
+	
+	public void showSugerContent(){
+		System.out.println("´çµµ : "+ sugarContent);
+	}
+}
+
+class FruitBox{
+	Orange item;
+	public void store(Object item){
+		this.item = item;
+		
+	}
+}
+
+
+public class OrangeBox {
+	public static void main(String[] args) {
+		
+	}
+}

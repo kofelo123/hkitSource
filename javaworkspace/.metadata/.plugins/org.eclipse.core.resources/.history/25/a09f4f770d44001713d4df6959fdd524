@@ -1,0 +1,9 @@
+package com.jeongwon.ch12;
+
+class Fruit {public String toString(){return "Fruit";}}
+class Apple Extends Fruit {public String toString(){return "Fruit";}}
+class Fruit {public String toString(){return "Fruit";}}
+
+public class FruitBoxEx3 {
+
+}

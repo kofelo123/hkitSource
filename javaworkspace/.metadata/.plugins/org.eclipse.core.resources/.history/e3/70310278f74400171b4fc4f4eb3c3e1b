@@ -1,0 +1,37 @@
+package com.jeongwon.threaded;
+
+public class Sum {
+	int num;
+	public Sum(){ num = 0;}
+	public void addNum(int n){num += n;}
+	public int getNum() {return num;}
+}
+
+class AddrThread extends Sum implements Runnable{
+	int start, end;
+	
+	public AddrThread(int s, int e){
+		start = s;
+		end = e;
+	}
+	
+	public void run(){
+		for(int i=start;i<=end; i++)
+			addNum(i);
+	}
+}
+
+class Thread02{
+	public static void main(String[] args) {
+		AddrThread at1 = new AddrThread(1, 50);
+		AddrThread at2 = new AddrThread(51, 100);
+		
+		Thread tr1 = new Thread(at1);
+		Thread tr2 = new Thread(at2);
+		
+		tr1.start();
+		tr2.start();
+		
+		System.out.println("1~100까지의 합:"+at1.getNum()+at2.getNum());
+	}
+}

@@ -1,0 +1,21 @@
+package com.jeongwon.ch12;
+
+class Fruit {public String toString(){return "Fruit";}}
+class Apple extends Fruit {public String toString(){return "Apple";}}
+class Grape extends Fruit{public String toString(){return "Grape";}}
+
+class Juice{
+	String name;
+	
+	Juice(String name){
+		this.name = name + "Juice";
+	}
+	
+	public String toString(){
+		return name;
+	}
+}
+
+public class FruitBoxEx3 {
+
+}
